@@ -29,7 +29,7 @@
 . /usr/share/beakerlib/beakerlib.sh || exit 1
 
 
-PACKAGE="distribution"
+PACKAGE="iproute"
 
 
 rlJournalStart
