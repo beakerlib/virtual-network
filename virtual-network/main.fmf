@@ -1,0 +1,14 @@
+summary: Virtual Network (vn) library is used for testing server-client network scenarios.
+description: ''
+contact:
+  - Frantisek Hrdina <fhrdina@redhat.com>
+  - Michal Ruprich <mruprich@redhat.com>
+enabled: true
+tag: Tier1
+tier: '1'
+component: []
+test: ./runtest.sh
+framework: beakerlib
+recommend:
+  - iproute
+duration: 5m
