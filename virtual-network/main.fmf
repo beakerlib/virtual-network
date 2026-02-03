@@ -11,6 +11,4 @@ test: ./runtest.sh
 framework: beakerlib
 recommend:
   - iproute
-require:
-  - library(virtual-network/virtual-network)
 duration: 5m

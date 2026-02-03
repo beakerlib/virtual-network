@@ -34,7 +34,7 @@ PACKAGE="iproute"
 
 rlJournalStart
     rlPhaseStartSetup
-        rlRun "rlImport virtual-network/virtual-network"
+        rlRun "rlImport ./virtual-network"
         vnCreateServerClientNetwork
     rlPhaseEnd
 
